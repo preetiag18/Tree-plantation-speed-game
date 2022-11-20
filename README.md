@@ -1,6 +1,6 @@
 # Tree plantation speed game
 
-Play this game to plant more trees on our planet and make a positive impact on our environment. You can play game [here](http://localhost:3000)
+Play this game to plant more trees on our planet and make a positive impact on our environment. You can play game [here](https://statuesque-pony-a2d2ad.netlify.app/)
 
 ![Game screenshot](./src/assets/game-screenshot.png)
 

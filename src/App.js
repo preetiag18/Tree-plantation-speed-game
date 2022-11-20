@@ -22,7 +22,7 @@ class App extends Component {
     circles: [1, 2, 3, 4],
     score: 0,
     current: undefined,
-    pace: 1000,
+    pace: 1500,
     gameOver: {
       isGameOver: false,
       message: "",
@@ -67,7 +67,7 @@ class App extends Component {
 
     this.setState({
       current: nextActive,
-      pace: this.state.pace * 0.95,
+      pace: this.state.pace * 0.9,
     });
     this.lives = this.lives - 1;
     this.timer = setTimeout(this.nextCircle, this.state.pace);
