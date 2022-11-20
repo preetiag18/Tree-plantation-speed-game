@@ -1,0 +1,36 @@
+.text{
+    position:absolute;
+    z-index:1;
+    color: white;
+    top: 4px;
+    left: 12px;
+}
+
+.heart {
+  background-color: rgb(0, 0, 0);;
+  width: 36px;
+  height: 36px;
+  position: relative;
+  transform: rotate(45deg);
+}
+
+.heart::before {
+    left: -18px;
+  }
+  
+.heart::after {
+    top: -18px;
+  }
+
+.heart::before, .heart::after {
+    content: "";
+    width: 36px;
+    height: 36px;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    border-radius: 50%;
+  }
+
+.center {
+  position: relative;
+}

@@ -1,0 +1,9 @@
+.mute {
+    background:url(../assets/mute.png) no-repeat center;
+    width: 3rem;
+}
+
+.unmute {
+    background:url(../assets/unmute.png) no-repeat center;
+    width: 3rem;
+}

@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.circles{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: black;
+    font-family: 'CRAMPS', sans-serif;
+    font-weight: 15px;
+    color: white;
+    cursor: url(../assets/plant.png) 2 2, pointer;
+
+
+}
+.active{
+    background-image: url(../assets/earth.png);
+    background-size: 100%;
+}
